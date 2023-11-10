@@ -4,8 +4,8 @@ import {
   BaseController,
   CoolWxPayConfig,
   CoolAliPayConfig,
-} from '@cool-midway/core';
-import { CoolAliPay, CoolWxPay } from '@cool-midway/pay';
+} from '@zyws-midway/core';
+import { CoolAliPay, CoolWxPay } from '@zyws-midway/pay';
 // @ts-ignore
 import AlipayFormData from 'alipay-sdk/lib/form';
 // @ts-ignore

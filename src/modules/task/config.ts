@@ -1,4 +1,4 @@
-import { ModuleConfig } from '@cool-midway/core';
+import { ModuleConfig } from '@zyws-midway/core';
 import { TaskMiddleware } from './middleware/task';
 
 /**

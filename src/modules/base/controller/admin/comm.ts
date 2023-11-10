@@ -1,11 +1,11 @@
 import { Provide, Inject, Get, Post, Body, ALL } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { BaseSysUserEntity } from '../../entity/sys/user';
 import { BaseSysLoginService } from '../../service/sys/login';
 import { BaseSysPermsService } from '../../service/sys/perms';
 import { BaseSysUserService } from '../../service/sys/user';
 import { Context } from '@midwayjs/koa';
-import { CoolFile } from '@cool-midway/file';
+import { CoolFile } from '@zyws-midway/file';
 
 /**
  * Base 通用接口 一般写不需要权限过滤的接口

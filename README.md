@@ -92,7 +92,7 @@ $ open http://localhost:8001/
 `src/modules/demo/entity/goods.ts`，项目启动数据库会自动创建该表，无需手动创建
 
 ```ts
-import { BaseEntity } from '@cool-midway/core';
+import { BaseEntity } from '@zyws-midway/core';
 import { Column, Entity, Index } from 'typeorm';
 
 /**
@@ -116,7 +116,7 @@ export class DemoAppGoodsEntity extends BaseEntity {
 `src/modules/demo/controller/app/goods.ts`，快速编写 6 个 api 接口
 
 ```ts
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { DemoAppGoodsEntity } from '../../entity/goods';
 
 /**

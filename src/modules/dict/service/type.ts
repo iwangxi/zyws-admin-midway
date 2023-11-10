@@ -1,6 +1,6 @@
 import { DictInfoEntity } from './../entity/info';
 import { Provide } from '@midwayjs/decorator';
-import { BaseService } from '@cool-midway/core';
+import { BaseService } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { Repository, In } from 'typeorm';
 

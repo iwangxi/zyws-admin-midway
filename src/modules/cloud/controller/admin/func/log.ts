@@ -1,6 +1,6 @@
 import { CloudFuncLogEntity } from './../../../entity/func/log';
 import { Provide } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 
 /**
  * 日志

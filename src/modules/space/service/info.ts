@@ -1,6 +1,6 @@
 import { SpaceInfoEntity } from './../entity/info';
 import { Config, Provide } from '@midwayjs/decorator';
-import { BaseService, CoolFileConfig, MODETYPE } from '@cool-midway/core';
+import { BaseService, CoolFileConfig, MODETYPE } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { Repository } from 'typeorm';
 

@@ -2,7 +2,7 @@ import { CloudFuncLogEntity } from './../entity/func/log';
 import { Config, IMidwayApplication } from '@midwayjs/core';
 import { CloudFuncInfoEntity } from './../entity/func/info';
 import { App, Provide, Inject } from '@midwayjs/decorator';
-import { BaseService, CoolConfig, CoolCommException } from '@cool-midway/core';
+import { BaseService, CoolConfig, CoolCommException } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { Repository } from 'typeorm';
 import * as moment from 'moment';
@@ -15,7 +15,7 @@ import {
   CloudReq,
   CoolCloudDb,
   CoolCloudFunc,
-} from '@cool-midway/cloud';
+} from '@zyws-midway/cloud';
 
 /**
  * 云函数

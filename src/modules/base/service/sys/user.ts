@@ -1,5 +1,5 @@
 import { Inject, Provide } from '@midwayjs/decorator';
-import { BaseService, CoolCommException } from '@cool-midway/core';
+import { BaseService, CoolCommException } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { Repository } from 'typeorm';
 import { BaseSysUserEntity } from '../../entity/sys/user';

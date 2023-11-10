@@ -1,6 +1,6 @@
 import { Inject } from '@midwayjs/core';
 import { TaskInfoService } from './../service/info';
-import { CoolEvent, Event } from '@cool-midway/core';
+import { CoolEvent, Event } from '@zyws-midway/core';
 
 /**
  * 应用事件

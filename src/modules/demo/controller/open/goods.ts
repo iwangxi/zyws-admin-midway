@@ -1,7 +1,7 @@
 import { DemoGoodsService } from '../../service/goods';
 import { DemoGoodsEntity } from '../../entity/goods';
 import { Body, Inject, Post, Provide } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { Repository } from 'typeorm';
 

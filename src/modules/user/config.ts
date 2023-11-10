@@ -1,4 +1,4 @@
-import { ModuleConfig } from '@cool-midway/core';
+import { ModuleConfig } from '@zyws-midway/core';
 import { UserMiddleware } from './middleware/app';
 
 /**
@@ -41,7 +41,7 @@ export default () => {
       // 刷新token 过期时间，单位秒
       refreshExpire: 60 * 60 * 24 * 30,
       // jwt 秘钥
-      secret: 'cool-app-xxxxxx',
+      secret: 'f364c6507fda11eeb0f5cd2a221c5662',
     },
   } as ModuleConfig;
 };

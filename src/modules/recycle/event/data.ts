@@ -1,4 +1,4 @@
-import { CoolEvent, EVENT, Event } from '@cool-midway/core';
+import { CoolEvent, EVENT, Event } from '@zyws-midway/core';
 import { Inject } from '@midwayjs/core';
 import { RecycleDataService } from '../service/data';
 

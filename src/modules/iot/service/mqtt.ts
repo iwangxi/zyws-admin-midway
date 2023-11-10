@@ -1,7 +1,7 @@
-import { CoolMqttServe } from '@cool-midway/iot';
+import { CoolMqttServe } from '@zyws-midway/iot';
 import { IotMessageEntity } from './../entity/message';
 import { Config, Inject, Provide } from '@midwayjs/decorator';
-import { BaseService, CoolIotConfig } from '@cool-midway/core';
+import { BaseService, CoolIotConfig } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { Repository } from 'typeorm';
 

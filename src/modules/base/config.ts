@@ -1,6 +1,6 @@
 import { BaseLogMiddleware } from './middleware/log';
 import { BaseAuthorityMiddleware } from './middleware/authority';
-import { ModuleConfig } from '@cool-midway/core';
+import { ModuleConfig } from '@zyws-midway/core';
 
 /**
  * 模块的配置
@@ -22,7 +22,7 @@ export default () => {
       // 单点登录
       sso: false,
       // 注意： 最好重新修改，防止破解
-      secret: 'cool-admin-xxxxxx',
+      secret: 'f3649f407fda11eeb0f5cd2a221c5662',
       // token
       token: {
         // 2小时过期，需要用刷新token

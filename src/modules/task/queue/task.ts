@@ -1,5 +1,5 @@
 import { App, Inject } from '@midwayjs/decorator';
-import { BaseCoolQueue, CoolQueue } from '@cool-midway/task';
+import { BaseCoolQueue, CoolQueue } from '@zyws-midway/task';
 import { TaskInfoService } from '../service/info';
 import { IMidwayApplication } from '@midwayjs/core';
 

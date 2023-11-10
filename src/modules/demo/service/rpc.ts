@@ -6,7 +6,7 @@ import {
   CoolRpc,
   CoolRpcService,
   CoolRpcTransaction,
-} from '@cool-midway/rpc';
+} from '@zyws-midway/rpc';
 import { QueryRunner } from 'typeorm';
 
 @Provide()

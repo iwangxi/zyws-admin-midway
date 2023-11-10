@@ -1,4 +1,4 @@
-import { BaseCoolQueue, CoolQueue } from '@cool-midway/task';
+import { BaseCoolQueue, CoolQueue } from '@zyws-midway/task';
 import { IMidwayApplication } from '@midwayjs/core';
 import { App } from '@midwayjs/decorator';
 

@@ -1,5 +1,5 @@
 import { IMidwayApplication } from '@midwayjs/core';
-import { CoolEvent, Event } from '@cool-midway/core';
+import { CoolEvent, Event } from '@zyws-midway/core';
 import { App } from '@midwayjs/decorator';
 import { CloudDBService } from '../service/db';
 

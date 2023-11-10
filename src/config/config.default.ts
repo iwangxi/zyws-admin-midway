@@ -1,6 +1,6 @@
-import { CoolConfig, MODETYPE } from '@cool-midway/core';
+import { CoolConfig, MODETYPE } from '@zyws-midway/core';
 import { MidwayConfig } from '@midwayjs/core';
-import * as fsStore from '@cool-midway/cache-manager-fs-hash';
+import * as fsStore from '@zyws-midway/cache-manager-fs-hash';
 
 export default {
   // use for cookie sign key, should change to your own and keep security

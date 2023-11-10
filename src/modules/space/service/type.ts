@@ -1,5 +1,5 @@
 import { Provide } from '@midwayjs/decorator';
-import { BaseService } from '@cool-midway/core';
+import { BaseService } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { In, Repository } from 'typeorm';
 import { SpaceTypeEntity } from '../entity/type';

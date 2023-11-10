@@ -1,6 +1,6 @@
 import { DictTypeEntity } from './../../entity/type';
 import { Provide } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { DictTypeService } from '../../service/type';
 
 /**

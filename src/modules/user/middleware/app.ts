@@ -3,7 +3,7 @@ import { NextFunction, Context } from '@midwayjs/koa';
 import { IMiddleware, Inject } from '@midwayjs/core';
 import * as jwt from 'jsonwebtoken';
 import * as _ from 'lodash';
-import { CoolUrlTagData, RESCODE, TagTypes } from '@cool-midway/core';
+import { CoolUrlTagData, RESCODE, TagTypes } from '@zyws-midway/core';
 
 /**
  * 用户

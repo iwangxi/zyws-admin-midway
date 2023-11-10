@@ -1,7 +1,7 @@
 import { IotMessageService } from './../service/message';
 import { IotDeviceService } from './../service/device';
 import { ILogger, Inject } from '@midwayjs/core';
-import { CoolMqtt, CoolMqttEvent, CoolMqttServe } from '@cool-midway/iot';
+import { CoolMqtt, CoolMqttEvent, CoolMqttServe } from '@zyws-midway/iot';
 
 /**
  * 应用事件

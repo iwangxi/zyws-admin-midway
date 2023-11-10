@@ -1,6 +1,6 @@
 import { RecycleDataEntity } from './../entity/data';
 import { Inject, Provide, Scope, ScopeEnum } from '@midwayjs/decorator';
-import { BaseService } from '@cool-midway/core';
+import { BaseService } from '@zyws-midway/core';
 import { InjectEntityModel, TypeORMDataSourceManager } from '@midwayjs/typeorm';
 import { Repository } from 'typeorm';
 import * as _ from 'lodash';

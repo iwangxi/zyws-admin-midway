@@ -1,5 +1,5 @@
 import { Config, Provide } from '@midwayjs/decorator';
-import { BaseService, CoolCache, CoolCommException } from '@cool-midway/core';
+import { BaseService, CoolCache, CoolCommException } from '@zyws-midway/core';
 import axios from 'axios';
 import * as crypto from 'crypto';
 import { v1 as uuid } from 'uuid';

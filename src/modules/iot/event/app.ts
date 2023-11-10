@@ -1,5 +1,5 @@
 import { Inject } from '@midwayjs/core';
-import { CoolEvent, Event } from '@cool-midway/core';
+import { CoolEvent, Event } from '@zyws-midway/core';
 import { IotDeviceService } from '../service/device';
 
 /**

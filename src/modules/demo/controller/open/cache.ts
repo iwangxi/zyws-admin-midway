@@ -1,6 +1,6 @@
 import { DemoCacheService } from '../../service/cache';
 import { Inject, Post, Provide, Get } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { CacheManager } from '@midwayjs/cache';
 
 /**

@@ -1,5 +1,5 @@
 import { Provide } from '@midwayjs/decorator';
-import { CoolCache } from '@cool-midway/core';
+import { CoolCache } from '@zyws-midway/core';
 
 /**
  * 缓存

@@ -1,5 +1,5 @@
 import { Config, Get, Provide } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { SpaceInfoEntity } from '../../entity/info';
 import { SpaceInfoService } from '../../service/info';
 

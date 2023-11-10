@@ -4,7 +4,7 @@ import {
   CoolUrlTag,
   TagTypes,
   CoolTag,
-} from '@cool-midway/core';
+} from '@zyws-midway/core';
 import { Body, Get, Inject, Post, Query } from '@midwayjs/core';
 import { UserLoginService } from '../../service/login';
 import { BaseSysLoginService } from '../../../base/service/sys/login';

@@ -1,5 +1,5 @@
 import { Column, Index, Entity } from 'typeorm';
-import { BaseEntity } from '@cool-midway/core';
+import { BaseEntity } from '@zyws-midway/core';
 
 /**
  * 系统配置

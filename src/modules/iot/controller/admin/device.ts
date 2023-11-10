@@ -1,6 +1,6 @@
 import { IotDeviceEntity } from './../../entity/device';
 import { Provide } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 
 /**
  * 设备信息

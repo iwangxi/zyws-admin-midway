@@ -2,7 +2,7 @@
   "queue": {
     "prefix": "queue",
     "body": [
-      "import { BaseCoolQueue, CoolQueue } from '@cool-midway/task';",
+      "import { BaseCoolQueue, CoolQueue } from '@zyws-midway/task';",
       "",
       "/**",
       " * 队列",

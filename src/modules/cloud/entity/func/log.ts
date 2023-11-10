@@ -1,5 +1,5 @@
-import { CloudReq } from '@cool-midway/cloud';
-import { BaseEntity } from '@cool-midway/core';
+import { CloudReq } from '@zyws-midway/cloud';
+import { BaseEntity } from '@zyws-midway/core';
 import { Column, Entity, Index } from 'typeorm';
 
 /**

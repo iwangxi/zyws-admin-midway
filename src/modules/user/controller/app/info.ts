@@ -1,4 +1,4 @@
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { Body, Get, Inject, Post } from '@midwayjs/core';
 import { UserInfoService } from '../../service/info';
 import { UserInfoEntity } from '../../entity/info';

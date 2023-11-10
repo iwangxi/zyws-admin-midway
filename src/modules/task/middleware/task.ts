@@ -1,4 +1,4 @@
-import { CoolCommException } from '@cool-midway/core';
+import { CoolCommException } from '@zyws-midway/core';
 import { Inject, Middleware } from '@midwayjs/decorator';
 import { NextFunction, Context } from '@midwayjs/koa';
 import { IMiddleware } from '@midwayjs/core';

@@ -1,6 +1,6 @@
 import { Get, Inject, Provide } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
-import { CoolMqttServe } from '@cool-midway/iot';
+import { CoolController, BaseController } from '@zyws-midway/core';
+import { CoolMqttServe } from '@zyws-midway/iot';
 
 /**
  * MQTT

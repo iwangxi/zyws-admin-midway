@@ -1,7 +1,7 @@
 import { BaseSysUserEntity } from './../../../base/entity/sys/user';
 import { RecycleDataEntity } from './../../entity/data';
 import { Body, Inject, Post, Provide } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { RecycleDataService } from '../../service/data';
 
 /**

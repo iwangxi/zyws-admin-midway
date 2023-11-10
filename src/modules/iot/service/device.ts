@@ -1,6 +1,6 @@
 import { IotDeviceEntity } from './../entity/device';
 import { Provide, Scope, ScopeEnum } from '@midwayjs/decorator';
-import { BaseService } from '@cool-midway/core';
+import { BaseService } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { Repository } from 'typeorm';
 

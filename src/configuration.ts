@@ -8,15 +8,15 @@ import * as view from '@midwayjs/view-ejs';
 import * as staticFile from '@midwayjs/static-file';
 import * as localTask from '@midwayjs/task';
 // import * as crossDomain from '@midwayjs/cross-domain';
-import * as cool from '@cool-midway/core';
-import * as cloud from '@cool-midway/cloud';
-import * as file from '@cool-midway/file';
-import * as sms from '@cool-midway/sms';
+import * as cool from '@zyws-midway/core';
+import * as cloud from '@zyws-midway/cloud';
+import * as file from '@zyws-midway/file';
+import * as sms from '@zyws-midway/sms';
 import { ILogger } from '@midwayjs/logger';
-// import * as rpc from '@cool-midway/rpc';
-// import * as task from '@cool-midway/task';
-// import * as pay from '@cool-midway/pay';
-// import * as iot from '@cool-midway/iot';
+// import * as rpc from '@zyws-midway/rpc';
+// import * as task from '@zyws-midway/task';
+// import * as pay from '@zyws-midway/pay';
+// import * as iot from '@zyws-midway/iot';
 
 @Configuration({
   imports: [

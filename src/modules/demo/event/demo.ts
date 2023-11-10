@@ -1,5 +1,5 @@
 import { Provide, Scope, ScopeEnum } from '@midwayjs/decorator';
-import { CoolEvent, Event } from '@cool-midway/core';
+import { CoolEvent, Event } from '@zyws-midway/core';
 
 /**
  * 接收事件

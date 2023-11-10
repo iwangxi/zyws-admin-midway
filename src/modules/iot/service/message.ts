@@ -1,6 +1,6 @@
 import { IotMessageEntity } from './../entity/message';
 import { IotDeviceEntity } from './../entity/device';
-import { BaseService } from '@cool-midway/core';
+import { BaseService } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { Repository } from 'typeorm';
 import { Provide, Singleton } from '@midwayjs/core';

@@ -1,10 +1,10 @@
 import { Config, Singleton } from '@midwayjs/core';
 import { CloudDBEntity } from './../entity/db';
 import { Inject, Provide } from '@midwayjs/decorator';
-import { BaseService, CoolCommException, CoolConfig } from '@cool-midway/core';
+import { BaseService, CoolCommException, CoolConfig } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { Repository } from 'typeorm';
-import { CoolCloudDb } from '@cool-midway/cloud';
+import { CoolCloudDb } from '@zyws-midway/cloud';
 import * as _ from 'lodash';
 
 /**

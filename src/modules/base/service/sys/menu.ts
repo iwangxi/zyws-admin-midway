@@ -1,6 +1,6 @@
 import { App, IMidwayApplication, Scope, ScopeEnum } from '@midwayjs/core';
 import { ALL, Config, Inject, Provide } from '@midwayjs/decorator';
-import { BaseService, CoolCommException } from '@cool-midway/core';
+import { BaseService, CoolCommException } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { In, Repository } from 'typeorm';
 import { BaseSysMenuEntity } from '../../entity/sys/menu';
@@ -328,7 +328,7 @@ export class BaseSysMenuService extends BaseService {
       'config.ts'
     );
     if (!fs.existsSync(configFilePath)) {
-      const data = `import { ModuleConfig } from '@cool-midway/core';
+      const data = `import { ModuleConfig } from '@zyws-midway/core';
 
 /**
  * 模块配置

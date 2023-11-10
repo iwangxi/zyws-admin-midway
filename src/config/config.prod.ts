@@ -1,4 +1,4 @@
-import { CoolConfig } from '@cool-midway/core';
+import { CoolConfig } from '@zyws-midway/core';
 import { MidwayConfig } from '@midwayjs/core';
 
 /**

@@ -4,7 +4,7 @@ import {
   CoolUrlTag,
   TagTypes,
   CoolTag,
-} from '@cool-midway/core';
+} from '@zyws-midway/core';
 import { Get, Inject, Query } from '@midwayjs/core';
 import { UserWxService } from '../../service/wx';
 

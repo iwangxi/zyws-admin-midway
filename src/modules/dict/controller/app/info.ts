@@ -5,7 +5,7 @@ import {
   CoolUrlTag,
   TagTypes,
   CoolTag,
-} from '@cool-midway/core';
+} from '@zyws-midway/core';
 import { DictInfoService } from '../../service/info';
 
 /**

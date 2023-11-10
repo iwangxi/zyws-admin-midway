@@ -6,9 +6,9 @@ import {
   TagTypes,
   CoolUrlTag,
   CoolTag,
-} from '@cool-midway/core';
+} from '@zyws-midway/core';
 import { Context } from '@midwayjs/koa';
-import { CoolFile } from '@cool-midway/file';
+import { CoolFile } from '@zyws-midway/file';
 import { BaseSysParamService } from '../../service/sys/param';
 
 /**

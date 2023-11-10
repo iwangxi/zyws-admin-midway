@@ -1,8 +1,8 @@
 import { CloudFuncService } from './../../../service/func';
 import { CloudFuncInfoEntity } from '../../../entity/func/info';
 import { Body, Inject, Post, Provide } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
-import { CloudReq } from '@cool-midway/cloud';
+import { CoolController, BaseController } from '@zyws-midway/core';
+import { CloudReq } from '@zyws-midway/cloud';
 
 /**
  * 云函数

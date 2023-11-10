@@ -1,4 +1,4 @@
-import { BaseEntity } from '@cool-midway/core';
+import { BaseEntity } from '@zyws-midway/core';
 import { Column, Entity, Index } from 'typeorm';
 
 /**

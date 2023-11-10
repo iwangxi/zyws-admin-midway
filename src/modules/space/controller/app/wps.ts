@@ -9,7 +9,7 @@ import {
   Provide,
   Query,
 } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { SpaceWpsService } from '../../service/wps';
 
 /**

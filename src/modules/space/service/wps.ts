@@ -1,7 +1,7 @@
 import { SpaceTypeEntity } from './../entity/type';
 import { SpaceInfoEntity } from './../entity/info';
 import { Config, Inject, Provide } from '@midwayjs/decorator';
-import { BaseService } from '@cool-midway/core';
+import { BaseService } from '@zyws-midway/core';
 import { InjectEntityModel } from '@midwayjs/typeorm';
 import { In, Repository } from 'typeorm';
 import * as _ from 'lodash';
@@ -11,7 +11,7 @@ import * as fs from 'fs';
 import { CacheManager } from '@midwayjs/cache';
 import * as jwt from 'jsonwebtoken';
 import { BaseSysUserEntity } from '../../base/entity/sys/user';
-import { CoolFile } from '@cool-midway/file';
+import { CoolFile } from '@zyws-midway/file';
 
 /**
  * 使用wps在线文档

@@ -1,5 +1,5 @@
 import { Inject, Provide, Config } from '@midwayjs/decorator';
-import { BaseService, CoolCommException, RESCODE } from '@cool-midway/core';
+import { BaseService, CoolCommException, RESCODE } from '@zyws-midway/core';
 import { LoginDTO } from '../../dto/login';
 import * as svgCaptcha from 'svg-captcha';
 import { v1 as uuid } from 'uuid';

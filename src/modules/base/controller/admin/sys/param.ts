@@ -1,5 +1,5 @@
 import { Get, Inject, Provide, Query } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { BaseSysParamEntity } from '../../../entity/sys/param';
 import { BaseSysParamService } from '../../../service/sys/param';
 import { Context } from '@midwayjs/koa';

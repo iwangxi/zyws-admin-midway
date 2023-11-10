@@ -1,8 +1,8 @@
 import { Provide, Config, Inject } from '@midwayjs/decorator';
-import { BaseService, CoolCommException } from '@cool-midway/core';
+import { BaseService, CoolCommException } from '@zyws-midway/core';
 import * as _ from 'lodash';
 import { CacheManager } from '@midwayjs/cache';
-import { CoolSms } from '@cool-midway/sms';
+import { CoolSms } from '@zyws-midway/sms';
 
 /**
  * 描述

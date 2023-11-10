@@ -1,4 +1,4 @@
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { UserInfoEntity } from '../../entity/info';
 
 /**

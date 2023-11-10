@@ -1,6 +1,6 @@
 import { DemoGoodsEntity } from './../entity/goods';
 import { Provide } from '@midwayjs/decorator';
-import { BaseService, CoolTransaction } from '@cool-midway/core';
+import { BaseService, CoolTransaction } from '@zyws-midway/core';
 import { QueryRunner } from 'typeorm';
 
 /**

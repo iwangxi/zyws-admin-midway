@@ -1,5 +1,5 @@
 import { Provide, Body, Inject, Post, Get, Query } from '@midwayjs/decorator';
-import { CoolController, BaseController, CoolEps } from '@cool-midway/core';
+import { CoolController, BaseController, CoolEps } from '@zyws-midway/core';
 import { LoginDTO } from '../../dto/login';
 import { BaseSysLoginService } from '../../service/sys/login';
 import { BaseSysParamService } from '../../service/sys/param';

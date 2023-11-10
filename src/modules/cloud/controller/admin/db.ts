@@ -1,7 +1,7 @@
 import { CloudDBService } from './../../service/db';
 import { CloudDBEntity } from './../../entity/db';
 import { Body, Inject, Post, Provide } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 
 /**
  * 云数据库

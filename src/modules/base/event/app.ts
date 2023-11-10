@@ -1,4 +1,4 @@
-import { CoolEvent, Event } from '@cool-midway/core';
+import { CoolEvent, Event } from '@zyws-midway/core';
 import { App, Config, ILogger, Logger } from '@midwayjs/core';
 import { IMidwayKoaApplication } from '@midwayjs/koa';
 import * as fs from 'fs';

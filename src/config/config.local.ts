@@ -1,4 +1,4 @@
-import { CoolConfig } from '@cool-midway/core';
+import { CoolConfig } from '@zyws-midway/core';
 import { MidwayConfig } from '@midwayjs/core';
 
 /**
@@ -29,7 +29,7 @@ export default {
   },
   cool: {
     // 是否自动导入模块数据库
-    initDB: true,
+    initDB: false,
     // 是否自动导入模块菜单
     initMenu: true,
     // crud配置

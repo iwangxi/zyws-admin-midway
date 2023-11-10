@@ -1,4 +1,4 @@
-import { BaseCoolQueue, CoolQueue } from '@cool-midway/task';
+import { BaseCoolQueue, CoolQueue } from '@zyws-midway/task';
 
 /**
  * 主动消费队列

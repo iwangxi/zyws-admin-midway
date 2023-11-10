@@ -1,4 +1,4 @@
-import { CoolEvent, Event } from '@cool-midway/core';
+import { CoolEvent, Event } from '@zyws-midway/core';
 import { BaseSysMenuService } from '../service/sys/menu';
 import { ILogger, Inject, Logger } from '@midwayjs/core';
 

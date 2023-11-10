@@ -1,6 +1,6 @@
 import { DemoGoodsEntity } from '../../entity/goods';
 import { Provide } from '@midwayjs/decorator';
-import { CoolController, BaseController } from '@cool-midway/core';
+import { CoolController, BaseController } from '@zyws-midway/core';
 import { DemoTransactionService } from '../../service/transaction';
 
 /**
